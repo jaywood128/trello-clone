@@ -1,0 +1,32 @@
+{
+  "name": "trello-clone",
+  "version": "1.0.0",
+  "description": "A replica of the popular project management tool using the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaywood128/trello-clone.git"
+  },
+  "author": "Johnathon Wood and Akash Gvalani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaywood128/trello-clone/issues"
+  },
+  "homepage": "https://github.com/jaywood128/trello-clone#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
